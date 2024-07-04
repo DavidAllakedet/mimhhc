@@ -1,0 +1,44 @@
+/* src/components/Header.scss */
+header {
+    background-color: #2d3748;
+    padding: 1rem;
+
+   
+
+    nav {
+
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        img {
+            margin-right: 1rem;
+        }
+        ul {
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-end;
+            gap: 3rem;
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+
+            li {
+                a {
+                    color: white;
+                    text-decoration: none;
+
+                    &:hover {
+                        color: #ecc94b;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+   
+
+ 
