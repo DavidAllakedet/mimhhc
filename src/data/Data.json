@@ -5,6 +5,41 @@
     },
     "About": {
       "paragraph": "Les Héros du Christ est un mouvement missionnaire international ayant une approche holistique. C'est un mouvement apolitique et interdenominationel fondé sur l'amour et l'unité chrétienne. Car il y a 'un seul corps, un seul Esprit, une seule espérance, un seul Seigneur, une seule foi, un seul baptême, un seul Dieu et père de tous'. <br> Nous croyons que chacun est un héros et est créé pour accomplir une destinée glorieuse et divine."
-    }
+    },
+    "Contact": {
+        "address": "N'djamena, Tchad ",
+        "phone": "+235 00 00 00 00",
+        "email": "lesherosduchrist@gmail.com",
+        "facebook": "lesherosduchrist.com",
+        "twitter": "lesherosduchrist.com",
+        "youtube": "youtube.com"
+      },
 
+      "Vision": [
+    {
+      "icon": "fa fa-search",
+      "title": "Découverte du But Ultime",
+      "text": "Nous voulons voir chaque homme découvrir son but ultime qui est d'adorer et de servir Dieu en ayant une relation dynamique et intime avec Lui, ceci causera en retour une transformation et un changement dans tous les aspects de sa vie."
+    },
+    {
+      "icon": "fa fa-user",
+      "title": "Pleine Identité en Christ",
+      "text": "Nous voulons voir chaque chrétien vivre pleinement son identité en Christ, se dépouillant de toute complexe d'infériorité, de culpabilité, de l'ignorance, de médiocrité et de toute mentalité de victime."
+    },
+    {
+      "icon": "fa fa-star",
+      "title": "Vivre l'Excellence",
+      "text": "Nous voulons voir chaque chrétien vivre l'excellence, vivre une vie d'exception et de référence à tout niveau."
+    },
+    {
+      "icon": "fa fa-unlock-alt",
+      "title": "Déblocage des Ressources Divines",
+      "text": "Nous voulons voir chaque chrétien débloquer les ressources divines disposées pour le mandat divin."
+    },
+    {
+      "icon": "fa fa-key",
+      "title": "Possession de l'Héritage Divin",
+      "text": "Nous voulons voir chaque chrétien posséder son héritage, conquérir les territoires et accomplir sa destinée en Jésus-Christ."
+    }
+  ]
 }
