@@ -1,44 +1,42 @@
-/* src/components/Header.scss */
-header {
-    background-color: #2d3748;
-    padding: 1rem;
+.intro {
+    display: table;
+    width: 100%;
+    padding: 0;
+    background: url('https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Preaching_Christianity.JPG/800px-Preaching_Christianity.JPG') center center no-repeat;
 
-   
-
-    nav {
-
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-
-        img {
-            margin-right: 1rem;
-        }
-        ul {
-            display: flex;
-            flex-direction: row;
-            justify-content: flex-end;
-            gap: 3rem;
-            list-style-type: none;
-            margin: 0;
-            padding: 0;
-
-            li {
-                a {
-                    color: white;
-                    text-decoration: none;
-
-                    &:hover {
-                        color: #ecc94b;
-                    }
-                }
-            }
-        }
-    }
-}
-
-
-
-   
-
- 
+    background-color: #e5e5e5;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+  }
+  .intro .overlay {
+    background: rgba(0, 0, 0, 0.2);
+  }
+  .intro h1 {
+    font-family: "Raleway", sans-serif;
+    color: #fff;
+    font-size: 82px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+  .intro h1 span {
+    font-weight: 800;
+    color: #5ca9fb;
+  }
+  .intro p {
+    color: #fff;
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 30px;
+    margin: 0 auto;
+    margin-bottom: 60px;
+  }
+  header .intro-text {
+    padding-top: 350px;
+    padding-bottom: 200px;
+    text-align: center;
+  }
+  
