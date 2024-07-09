@@ -13,7 +13,7 @@ export const About = (props) => {
           <div className="col-xs-12 col-md-6">
             <div className="about-text">
               <h2>A PROPOS </h2>
-              <p>{props.Data ? props.Data.paragraph : "loading..."}</p>
+              <p>{props.Data ? props.Data.paragraph : "Chargement..."}</p>
               
             </div>
           </div>

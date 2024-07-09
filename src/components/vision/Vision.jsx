@@ -11,7 +11,7 @@ export const Vision = (props) => {
         <div className="three-columns">
           {props.Data
             ? props.Data.map((d, i) => (
-                <div key={`${d.title}-${i}`}>
+                <div key={`${d.title}-${i}`} className="vision-item">
                   <i className={d.icon}></i>
                   <h3>{d.title}</h3>
                   <p>{d.text}</p>
@@ -19,7 +19,6 @@ export const Vision = (props) => {
               ))
             : "Loading..."}
         </div>
-
       </div>
     </div>
   );

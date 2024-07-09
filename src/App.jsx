@@ -6,6 +6,10 @@ import { Header } from "./components/header/Header";
 import { Contact } from "./components/footer/Footer";
 import { About } from "./components/about/About";
 import { Vision } from "./components/vision/Vision";
+import { Valeurs } from "./components/valeurs/Valeurs";
+import { Gallery } from "./components/gallerie/Gallerie";
+import { Missions } from "./components/missions/Missions";
+import { Programmes } from "./components/programmes/Programmes";
 import JsonData from "./data/Data.json";
 import SmoothScroll from "smooth-scroll";
 import "./App.css";
@@ -27,6 +31,10 @@ const App = () => {
       <Header Data={landingPageData.Header} />
       <Vision Data={landingPageData.Vision} />
       <About Data={landingPageData.About} />
+      <Valeurs Data={landingPageData.Valeurs} />
+      <Gallery Data={landingPageData.Gallerie} />
+      <Programmes Data={landingPageData.Programmes} />
+      <Missions Data={landingPageData.Missions} />
       <Contact Data={landingPageData.Contact} />
     </div>
   );

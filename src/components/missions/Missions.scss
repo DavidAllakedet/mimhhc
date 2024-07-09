@@ -1,0 +1,52 @@
+/* mission Section */
+#mission {
+  
+    padding: 100px 0; 
+    text-align: center; 
+  }
+  
+  #mission h4 {
+    margin: 5px 0; /* Marge de 5px en haut et en bas, 0 sur les côtés */
+    font-size: 1.5rem; /* Taille de police pour les titres h4 */
+  }
+  
+  #mission .mission-img {
+    width: 100%;
+    height: 200px; 
+    /*border-radius: 50%;*/
+    border: 2px solid #ddd; 
+  }
+  
+  #mission .thumbnail {
+    display: flex; 
+    flex-direction: column; 
+    height: 400px;
+    /*align-items: center; 
+    background-color: #f9f9f9; */
+    /*padding: 20px ;*/
+    border: 1px solid #ddd; 
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    transition: all 0.3s ease; 
+  }
+  
+  #mission .thumbnail:hover {
+    transform: translateY(-5px); /* Animation de survol - translation vers le haut */
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2); /* Ombre légère accrue */
+  }
+  
+  #mission .thumbnail .caption {
+    padding: 10px 30px; /* Espacement intérieur pour la légende */
+    color: #888; /* Couleur du texte gris */
+  }
+  
+  #mission .thumbnail .caption ul {
+    list-style-type: disc; /* Utilise des points comme style de liste */
+    padding-left: 20px; /* Indentation pour les éléments de liste */
+    text-align: left; /* Aligne le texte à gauche pour les éléments de liste */
+  }
+  
+  #mission .thumbnail .caption li {
+    margin: 5px 0; /* Marge entre les éléments de liste */
+  }
+  

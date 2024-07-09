@@ -14,7 +14,33 @@
         "twitter": "lesherosduchrist.com",
         "youtube": "youtube.com"
       },
-
+    "Valeurs": [
+        {
+          "icon": "fa fa-heart",
+          "name": "Amour"
+        },
+        {
+          "icon": "fa fa-handshake",
+          "name": "Loyauté"
+        },
+        {
+          "icon": "fa fa-hand-holding-heart",
+          "name": "Service"
+        },
+        {
+          "icon": "fa fa-balance-scale",
+          "name": "Redevabilité"
+        },
+        {
+          "icon": "fa fa-eye",
+          "name": "Transparence"
+        },
+        {
+          "icon": "fa fa-fire",
+          "name": "Courage"
+        }
+        
+      ],
     "Vision": [
         {
         "icon": "fa fa-search",
@@ -41,5 +67,97 @@
         "title": "Possession de l'Héritage Divin",
         "text": "Nous voulons voir chaque chrétien posséder son héritage, conquérir les territoires et accomplir sa destinée en Jésus-Christ."
         }
-  ]
+      ],
+      "Programmes": [
+        {
+          "icon": "fa fa-building",
+          "name": "Séminaires d'édification et de restauration"
+        },
+        {
+          "icon": "fa fa-graduation-cap",
+          "name": "Formation et déploiement des missionnaires"
+        },
+        {
+          "icon": "fa fa-hands-helping",
+          "name": "Mise en place des œuvres sociales et humanitaires"
+          
+        },
+        {
+          "icon": "fa fa-music",
+          "name": "Formations musicales et autres"
+        },
+        {
+          "icon": "fa fa-moon-o",
+          "name": "Veillées de prière"
+        },
+        {
+        "icon": "fa fa-bullhorn",
+          "name": "Campagnes d'évangélisation"
+        }
+      ],
+
+      "Gallerie": [
+        {
+          "largeImage": "https://via.placeholder.com/1000x667",
+          "smallImage": "https://via.placeholder.com/500x333"
+        },
+        {
+          "largeImage": "https://via.placeholder.com/1000x667",
+          "smallImage": "https://via.placeholder.com/500x333"
+        },
+        {
+          "largeImage": "https://via.placeholder.com/1000x667",
+          "smallImage": "https://via.placeholder.com/500x333"
+        },
+        {
+          "largeImage": "https://via.placeholder.com/1000x667",
+          "smallImage": "https://via.placeholder.com/500x333"
+        },
+        {
+          "largeImage": "https://via.placeholder.com/1000x667",
+          "smallImage": "https://via.placeholder.com/500x333"
+        },
+        {
+          "largeImage": "https://via.placeholder.com/1000x667",
+          "smallImage": "https://via.placeholder.com/500x333"
+        },
+        {
+          "largeImage": "https://via.placeholder.com/1000x667",
+          "smallImage": "https://via.placeholder.com/500x333"
+        },
+        {
+          "largeImage": "https://via.placeholder.com/1000x667",
+          "smallImage": "https://via.placeholder.com/500x333"
+        },
+        {
+          "largeImage": "https://via.placeholder.com/1000x667",
+          "smallImage": "https://via.placeholder.com/500x333"
+        }
+      ],
+      "Missions": [
+          {
+            "img": "img/team/01.jpg",
+            "name": "Évangélisation",
+            "text": [
+                    "Proclamer l'évangile à tout le monde, partout et en toute occasion favorable ou non."
+                  ]
+          },
+          {
+            "img": "img/team/03.jpeg",
+            "name": "L'espérance des saints",
+            "text": [
+                    "Préparer l'église pour le retour du Seigneur."
+                  ]
+          },
+          {
+            "img": "img/team/02.jpg",
+          "name": "Discipolat",
+            "text": [
+                    "Bâtir les hommes et les femmes de prière partout dans le monde.",
+                    "Bâtir les disciples par les enseignements afin qu'ils deviennent des lettres de recommandation vivantes dans tous les domaines et partout où ils seront."
+                  ]
+          }
+      
+      ]
+
 }

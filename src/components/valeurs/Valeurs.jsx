@@ -1,4 +1,5 @@
 import React from "react";
+import './Valeurs.scss'
 
 export const Valeurs = (props) => {
   return (
@@ -8,8 +9,8 @@ export const Valeurs = (props) => {
           <h2>Valeurs</h2>
         </div>
         <div className="row">
-          {props.data
-            ? props.data.map((d, i) => (
+          {props.Data
+            ? props.Data.map((d, i) => (
                 <div key={`${d.name}-${i}`} className="col-md-4">
                   {" "}
                   <i className={d.icon}></i>
@@ -19,7 +20,7 @@ export const Valeurs = (props) => {
                   </div>
                 </div>
               ))
-            : "loading"}
+            : "Chargement"}
         </div>
       </div>
     </div>

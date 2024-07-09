@@ -25,7 +25,7 @@ export const Contact = (props) => {
     {/* replace below with your own Service ID, Template ID and Public Key from your EmailJS account */ }
     
     emailjs
-      .sendForm("YOUR_SERVICE_ID", "YOUR_TEMPLATE_ID", e.target, "YOUR_PUBLIC_KEY")
+      .sendForm('service_82gp3yn', 'template_22hvhsm', e.target, 'lNmDJolvr5tvauvOJ')
       .then(
         (result) => {
           console.log(result.text);
@@ -106,7 +106,7 @@ export const Contact = (props) => {
                 <span>
                   <i className="fa fa-map-marker"></i> Adresse
                 </span>
-                {props.Data ? props.Data.address : "loading"}
+                {props.Data ? props.Data.address : "Chargement"}
               </p>
             </div>
             <div className="contact-item">
@@ -114,7 +114,7 @@ export const Contact = (props) => {
                 <span>
                   <i className="fa fa-phone"></i> Tel
                 </span>{" "}
-                {props.Data ? props.Data.phone : "loading"}
+                {props.Data ? props.Data.phone : "Chargement"}
               </p>
             </div>
             <div className="contact-item">
@@ -122,7 +122,7 @@ export const Contact = (props) => {
                 <span>
                   <i className="fa fa-envelope-o"></i> Email
                 </span>{" "}
-                {props.Data ? props.Data.email : "loading"}
+                {props.Data ? props.Data.email : "Chargement"}
               </p>
             </div>
           </div>
