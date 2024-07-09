@@ -136,21 +136,21 @@
       ],
       "Missions": [
           {
-            "img": "img/team/01.jpg",
+            "img": "img/missions/01.jpg",
             "name": "Évangélisation",
             "text": [
                     "Proclamer l'évangile à tout le monde, partout et en toute occasion favorable ou non."
                   ]
           },
           {
-            "img": "img/team/03.jpeg",
+            "img": "img/missions/03.jpeg",
             "name": "L'espérance des saints",
             "text": [
                     "Préparer l'église pour le retour du Seigneur."
                   ]
           },
           {
-            "img": "img/team/02.jpg",
+            "img": "img/missions/02.jpg",
           "name": "Discipolat",
             "text": [
                     "Bâtir les hommes et les femmes de prière partout dans le monde.",
