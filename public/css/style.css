@@ -43,13 +43,13 @@ p.intro {
   line-height: 24px;
 }
 a {
-  color: #a9963d;
+  color: #020202;
   font-weight: 400;
 }
 a:hover,
 a:focus {
   text-decoration: none;
-  color: #a9963d;
+  color: #3da99e;
 }
 ul,
 ol {

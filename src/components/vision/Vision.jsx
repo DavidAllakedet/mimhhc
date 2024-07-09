@@ -1,4 +1,5 @@
 import React from "react";
+import './Vision.scss';
 
 export const Vision = (props) => {
   return (

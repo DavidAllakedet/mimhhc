@@ -3,7 +3,7 @@ import '@fortawesome/fontawesome-free/css/all.min.css';
 
 import { Navigation } from "./components/navigation/navigation";
 import { Header } from "./components/header/Header";
-import { Footer } from "./components/footer/Footer";
+import { Contact } from "./components/footer/Footer";
 import { About } from "./components/about/About";
 import { Vision } from "./components/vision/Vision";
 import JsonData from "./data/Data.json";
@@ -27,7 +27,7 @@ const App = () => {
       <Header Data={landingPageData.Header} />
       <Vision Data={landingPageData.Vision} />
       <About Data={landingPageData.About} />
-      <Footer Data={landingPageData.Footer} />
+      <Contact Data={landingPageData.Contact} />
     </div>
   );
 };

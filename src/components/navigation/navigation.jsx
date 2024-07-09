@@ -1,4 +1,5 @@
 import React from "react";
+import './Navigation.scss';
 
 export const Navigation = (props) => {
   return (
